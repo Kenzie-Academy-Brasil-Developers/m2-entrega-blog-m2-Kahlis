@@ -5,8 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>m2-entrega-blog-m2</title>
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
-  
+  <header>
+    <figure>
+      <img src="gato.jpg" alt="imagem de perfil">
+      <h1>GatinhoFofo</h1>
+    </figure>
+    <button>Logout</button>
+  </header>
+  <main>
+    <div class="new-post">
+      <textarea id="post-text" placeholder="Comece seu post incrível!"></textarea>
+      <button id="post-submit">+</button>
+    </div>
+    <div class="post">
+      <img src="gato.jpg">
+      <div class="content">
+        <h2>GatinhoFofo</h2>
+        <p>
+          Lorem ipsum dolor sit amet. Et iste labore ut similique consequuntur
+          et consequuntur harum est repellendus quia 33 tempore similique. Nam
+          reprehenderit vero eos maxime consequatur At nihil facere vel quam
+          nemo eum perspiciatis maiores qui atque quia.
+        </p>
+      </div>
+      <div class="options">
+        <a class="edit">Editar</a>
+        <a class="erase">Apagar</a>
+        <a class="date">13/05/2022</a>
+      </div>
+    </div>
+  </main>
+  <script src="src/script.js"></script>
 </body>
 </html>
