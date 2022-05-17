@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap');
+
+:root {
+    --main-color: #6495ED;
+    --color-accent: #EDBC64;
+    --text-white: #FAFAFA;
+    --white: #FFFFFF;
+    --light-grey: #F3F3F3;
+    --darker-grey: #989898;
+    --erase: #ED6464;
+    --selected-input: #e9e9e9;
+    --selected-button: #cfa14a;
+}
+
+h1 {
+    display: inline;
+    margin-left: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    vertical-align: middle;
+    line-height: 24px;
+    
+    color: var(--text-white);
+}

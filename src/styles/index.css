@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap');
-
-:root {
-    --main-color: #6495ED;
-    --color-accent: #EDBC64;
-    --text-white: #FAFAFA;
-    --white: #FFFFFF;
-    --light-grey: #F3F3F3;
-    --darker-grey: #989898;
-    --edit: #6495ED;
-    --erase: #ED6464;
-}
-
 body {
     background-color: var(--light-grey);
 }
@@ -30,21 +17,6 @@ header img {
     width: 50px;
     vertical-align: middle;
     border-radius: 100%;
-}
-
-h1 {
-    display: inline;
-    margin-left: 10px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-
-    vertical-align: middle;
-    line-height: 24px;
-    
-    color: var(--text-white);
 }
 
 header button {
@@ -179,8 +151,13 @@ a {
     color: #989898;
 }
 
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .edit {
-    color: var(--edit);
+    color: var(--main-color);
 }
 
 .erase {
@@ -190,4 +167,9 @@ a {
 
 .date {
     margin-top: 10px;
+}
+
+.date:hover {
+    text-decoration: none;
+    cursor: text;
 }
