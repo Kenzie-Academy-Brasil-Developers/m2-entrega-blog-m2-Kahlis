@@ -1,6 +1,10 @@
 let registerUrl = "https://api-blog-m2.herokuapp.com/user/register";
 let registerBtn = document.getElementById("register");
 
+document.getElementById("login").addEventListener("click", function() {
+    localStorage.clear();
+    window.location.href = "login.html";
+});
 registerBtn.addEventListener("click", event => {
     event.preventDefault();
     let _headers = new Headers();

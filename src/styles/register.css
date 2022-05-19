@@ -67,3 +67,30 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+p {
+    margin-top: 10px;
+    width: 246px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: white;
+}
+
+a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
