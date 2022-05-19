@@ -28,7 +28,7 @@ input {
     border-radius: 4px;
 }
 
-input[type="submit"] {
+input[type="button"] {
     width: 246px;
     height: 42px;
 
@@ -46,7 +46,7 @@ input[type="submit"] {
     background-color: var(--color-accent);
 }
 
-input[type="submit"]:hover {
+input[type="button"]:hover {
     background-color: var(--selected-button);
     cursor: pointer;
 }
