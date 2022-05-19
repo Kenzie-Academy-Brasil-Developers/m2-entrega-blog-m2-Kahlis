@@ -23,7 +23,7 @@ if(loginBtn != undefined) {
     }
     document.getElementById("register").addEventListener("click", function() {
         localStorage.clear();
-        window.location.href = "../register.html";
+        window.location.href = "register.html";
     });
     loginBtn.addEventListener("click", event => {
         event.preventDefault();
@@ -48,7 +48,7 @@ if(loginBtn != undefined) {
         }).then((json) => {
             localStorage.setItem("token", json["token"]);
             localStorage.setItem("userId", json["userId"]);
-            window.location.href = "../index.html";
+            window.location.href = "index.html";
         }).catch((error) => {
             alert(error);
         });
@@ -82,7 +82,7 @@ if(registerBtn != undefined) {
         }).then((json) => {
             alert("Usuário cadastrado com sucesso!");
             localStorage.setItem("email", json["email"]);
-            window.location.href = "../login.html";
+            window.location.href = "login.html";
         }).catch((error) => {
             alert(error);
         });
@@ -92,12 +92,12 @@ if(registerBtn != undefined) {
 if(postText != undefined) {
     if(localStorage.getItem("token") === null || localStorage.getItem("userId") === null) {
         localStorage.clear();
-        window.location.href = "../login.html";
+        window.location.href = "login.html";
     }
 
     document.getElementById("logout").addEventListener("click", function() {
         localStorage.clear();
-        window.location.href = "../login.html";
+        window.location.href = "login.html";
     });
     
     let _headers = new Headers();
